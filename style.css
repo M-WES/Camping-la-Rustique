@@ -1,0 +1,311 @@
+body {
+    background-color: #4a4c53;
+    color: white;
+    margin: 0;
+}
+/* Basic styling for the header */
+header {
+    background-color: #333; /* Change the background color as needed */
+    color: white; /* Change the text color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    border-bottom: 2px solid #fff; /* Bottom border style */
+    border-radius: 0px 0px 10px 10px ; /* Add curved edges to the top */
+    max-width: fit-content;
+}
+
+/* Optional: Center the text in the header */
+header h1 {
+    margin: 0; /* Remove default margin for h1 element */
+}
+
+/* Optional: Adjust the text alignment and font size */
+header a {
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Optional: Style the navigation links */
+nav {
+    display: flex; /* Align navigation links horizontally */
+    justify-content: space-around; /* Add space between links */
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.logo {
+    max-width: 400px;
+    width: 35%;
+}
+.container {
+    border: #333;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #327fa8;
+}
+
+.table {
+    width: 100% ;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 1000px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px; /* Add curved edges to the table */
+    overflow: hidden; /* Ensure content inside the table doesn't extend beyond the curved borders */
+    
+}
+
+/* Add the following rule to round the corners of the table cells */
+.table td, .table th {
+    border-radius: 10px; /* Add curved edges to the table cells */
+    
+}
+
+.Image-holder{
+    width: 100%; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper spacing around the image */
+    margin: 0 auto; /* Center the image within its container */
+}
+
+.logo-image {
+    width: 100%; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper spacing around the image */
+    margin: 0 auto; /* Center the image within its container */
+    
+}
+
+.table-top_left {
+    width: 50%;
+
+    max-height: 50%;
+    background-image: url(Images/reserveren%20image.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;   
+    background-position:  bottom;
+
+}
+
+
+
+.Reserveren {
+    color: #c3e7c3;
+    position: bottom left;
+    text-decoration: none;
+    background-color: #333;
+
+}
+
+
+.table-top_right {
+    max-width: 100px;
+    max-height: fit-content;
+    background-color: #fff;
+    
+}
+
+.Kaart {
+    color: #c3e7c3;
+    position: bottom left;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.table-bottom_left {
+    width: 50%;
+    max-height: 50%;
+    background-image: url(Images/Tarieven.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: bottom;
+}
+
+
+.FAQ-image {
+    max-width: 100px;
+    width: 100px;
+}
+
+.FAQ {
+    color: #c3e7c3;
+    position: bottom left;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.table-bottom_right {
+    width: 50%;
+    max-height: 50%;
+    background-image: url(Images/Contact4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: bottom;
+}
+
+
+.contact-image {
+    width: 20%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-button {
+    background-color: #008cea; /* Blue color */
+    width: 250px;
+    height: 54px;
+    color: #fff; /* White text */
+    padding:  10px 20px 25px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded edges */
+    text-decoration: none; /* Remove underlines */
+    display: inline-block; /* Make it inline */
+}
+
+.login-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+
+.reserveer-stijl {
+background-color: #333;
+}
+
+  /* Add your styles here */
+  .goback-button {
+    background-color: rgb(189, 18, 18);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.goback-button:hover {
+    background-color: darkred;
+}
+
+.table-h1 {
+max-width: 200px;
+width: 100% ;
+height: 300px;
+border-radius: 10px 10px 10px 10px;
+
+}
+.Reserveren {
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.wrapper-form {
+    position: relative;
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+    overflow: hidden;
+}
+
+li.nav-item {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li.nav-item:last-child {
+    border-right: none;
+}
+
+li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Abadi", sans-serif;
+}
+
+li.nav-item a:hover {
+    background-color: #327fa8;
+}
+
+li.login {
+    float: right;
+    height: 46px; /* Set the height to match other nav-items */
+}
+
+li.login a {
+    display: contents;
+    color: white;
+    text-align: center;
+    height: 100px; /* Ensure the link takes up the full height of the container */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Abadi", sans-serif;
+}
+
+li.login a:hover {
+    background-color: #327fa8;
+}
+
+
+.login-container {
+    margin-left: auto;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: "Abadi", sans-serif;
+}
+
+/* Add the styles for tables */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-around; /* Adjust the spacing between tables */
+}
+
+.table {
+    border-collapse: collapse;
+    width: 200px;
+    margin: 10px;
+}
+
+.table, .table td, .table th {
+    border: 1px ;
+}
+
+.table caption {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: navy;
+    color: white;
+    padding: 7px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
