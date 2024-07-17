@@ -21,9 +21,7 @@
             margin: 0 auto;
         }
 
-        .blurry-background {
-            /* Add your blurry-background styles here */
-        }
+
 
         .form-container {
             border: #45a049;

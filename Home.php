@@ -79,9 +79,9 @@
   if (!$loggedIn) : 
   ?>
                 <center>
-                    <a href="login.html" class="login-button"><h1>Login</h1></a>
+                    <a href="index.html" class="login-button"><h1>Login</h1></a>
                 </center>
-
+s
                 
             <?php 
 
