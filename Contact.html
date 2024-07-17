@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Contactpagina</title>
     <style>
         body {
@@ -37,7 +38,24 @@
     </style>
 </head>
 <body>
-    <h1>Contacteer Ons</h1>
+    <ul class="navbar">
+        <li class="nav-item"><a href="javascript:history.go(-1);">← Terug</a></li>
+
+    </ul>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* To prevent horizontal scrollbar */
+        }
+        img {
+            max-width: 85%;
+            max-height: 85%;
+            display: block;
+            margin: auto;
+        }
+    </style>
+
+    <h1> Neem contact op</h1>
     <form action="Contact.php" method="post">
         <label for="name">Naam:</label>
         <input type="text" id="name" name="name" required>

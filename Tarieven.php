@@ -36,7 +36,7 @@
         }
     </style>
 
-  <h2>Pricing Information</h2>
+  <h2>Tarief informatie</h2>
 
 <table>
     <tr>
